@@ -1,0 +1,76 @@
+.DivRF{
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    text-align: center;
+    
+}
+.DivRF h1{
+    color: magenta;
+}
+.ContainerRF{
+    width: 20%;
+    height: 60vh;
+    background-color: #ff3367;
+    text-align: center;
+    margin: auto;
+    margin-top: 20vh;
+    border-radius: 20px;
+
+}
+.ContainerRF input{
+    width: 70%;
+    height: 5vh;
+    border: 0px;
+    border-radius: 5px;
+
+}
+
+.ContainerRF label{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.Sbmt_Button{
+    font-size: 25px;
+    font-weight: 600;
+   background-color: aquamarine;
+    width: 70%;
+    height: 7vh;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+.Sbmt_Button:hover{
+     background-color: rgb(83, 218, 25);
+     color: white;
+}
+.Social_btn button{
+    width: 33%;
+    height: 5vh;
+    border: 0px ;
+    border-radius: 5px;
+    color: #ff3367;
+    background-color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+#btn1{
+    /* background-color: #ea4335; */
+    color: #ff3367;
+}
+#btn2{
+    /* background-color: #3b5998; */
+        color: #ff3367;
+    margin-left: 3%;
+}
+#btn1:hover{
+   
+    background-color: #ff3367;
+    color: black;
+    font-size: 25px;
+}
+#btn2:hover{
+    background-color: #ff3367;
+    color: black;
+    font-size: 25px;
+}
