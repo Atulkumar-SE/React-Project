@@ -12,7 +12,7 @@ const Updatetask = ({updateData, changeTask, updateTask, cancleUpdate}) => {
               />
             </div>
             <div onClick={updateTask} className="col-auto">
-              <button className="btn btn-lg btn-success btn_margin">
+              <button className="btn btn-lg btn-info btn_margin">
                 Update
               </button>
               <button onClick={cancleUpdate} className="btn btn-lg btn-warning">

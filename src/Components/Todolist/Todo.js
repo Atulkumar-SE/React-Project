@@ -65,11 +65,9 @@ function Todo() {
   };
 
   return (
+    <div className="todo_container">
     <div className="todo">
-      <br />
-      To Do List
-      <br />
-      <br />
+      <h1>Try To-Do</h1>
       {/*Update Task */}
       {updateData && updateData ? (
         <Updatetask
@@ -89,6 +87,7 @@ function Todo() {
         setUpdateData={setUpdateData}
         deleteTask={deleteTask}
       />
+    </div>
     </div>
   );
 }
