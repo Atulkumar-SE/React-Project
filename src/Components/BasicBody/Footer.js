@@ -10,6 +10,10 @@ const Footer = () => {
         <h1>Atul</h1>
         <h1>Jaiswal</h1>
       </div>
+      <div className='mid'>
+        <h1>Package Install</h1>
+        <h5>1. Bootstrap <br/> 2. Fontawesom <br/> 3. fontawesom svg icon</h5>
+      </div>
       <div className="right">
         <ul>
           <li><a href="https://www.linkedin.com/in/atul-kumar-3998241b5/" target="blank"><FaWhatsapp/></a></li>
