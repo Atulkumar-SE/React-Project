@@ -1,0 +1,50 @@
+/* .weatherContainer{
+    align-items: center;
+    padding: 0 3rem;
+} */
+.WeatherBg{
+    background-image: url(/public/sky.jpg);
+    background-color: red;
+    /* height: 50vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    padding: 3rem 0;
+}
+.WeatherBg h1{
+    /* color: #fff; */
+    font-size: 4rem;
+    font-weight: 700;
+}
+.tempBox{
+    margin: auto;
+    width: 25vw;
+    height: 40vh;
+    border-radius: 10px;
+    background-color: #00000000;
+    box-shadow: 1px 1px 25px #000000b6;
+}
+.weatherIcon{
+    margin-top: 2rem;
+    width: 100px;
+    height: 100px;
+}
+.City{
+    font-size: 2rem;
+}
+.Temp{
+    font-size: 4rem;
+    font-weight: 700;
+}
+@media (max-width:800px) {
+    .tempBox{
+        width: 80vw;
+        height: 40vh;
+    }
+}

@@ -12,7 +12,7 @@ const Footer = () => {
       </div>
       <div className='mid'>
         <h1>Package Install</h1>
-        <h5>1. Bootstrap <br/> 2. Fontawesom <br/> 3. fontawesom svg icon</h5>
+        <h5>1. Bootstrap <br/> 2. Fontawesom <br/> 3. fontawesom svg icon<br/>4. Axios</h5>
       </div>
       <div className="right">
         <ul>
